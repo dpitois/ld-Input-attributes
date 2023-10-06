@@ -5,6 +5,12 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
+     <script type="module">
+        import "@emdgroup-liquid/liquid/dist/css/liquid.global.css";
+        import { defineCustomElements } from '@emdgroup-liquid/liquid/dist/loader';
+        defineCustomElements();
+        window.__LD_ASSET_PATH__ = `${window.location.origin}/liquid`
+    </script>
   </head>
   <body>
     <div id="root"></div>
