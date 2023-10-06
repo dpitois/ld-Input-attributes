@@ -1,7 +1,4 @@
-import {
-  LdInput,
-  LdLabel,
-} from "@emdgroup-liquid/liquid/dist/react-define-excluded";
+import { LdInput, LdLabel } from "@emdgroup-liquid/liquid/dist/react";
 
 function App() {
   return (
